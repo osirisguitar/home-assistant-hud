@@ -1,9 +1,8 @@
 # HUD — Home Assistant Theme
 
-A futuristic sci-fi / heads-up-display theme for Home Assistant. Deep navy background, glowing cyan primaries,
-amber warnings, a faint tech-grid overlay on the dashboard, and a monospace / Orbitron-leaning font stack.
-
-![vibe reference](https://sv.vecteezy.com/vektor-konst/24803276-hud-sci-fi-granssnitt-skarm-se-design-virtuell-verklighet-trogen-teknologi-visa-vektor)
+A futuristic sci-fi / heads-up-display theme for Home Assistant inspired by Tron Legacy. Deep navy background,
+glowing cyan primaries, amber warnings, a faint tech-grid overlay on the dashboard, and a monospace /
+Orbitron-leaning font stack.
 
 ## Install
 
@@ -20,8 +19,8 @@ amber warnings, a faint tech-grid overlay on the dashboard, and a monospace / Or
 
 ## Optional: fonts
 
-For the full HUD look, load **Orbitron** (or **Rajdhani** / **Share Tech Mono**) from Google Fonts.
-Copy `www/fonts.js` into your HA config's `www/` folder, then pick **one** of:
+For the full HUD look, load **Orbitron** (or **Rajdhani** / **Share Tech Mono**) from Google Fonts. Copy
+`www/fonts.js` into your HA config's `www/` folder, then pick **one** of:
 
 **Via dashboard resource (UI):**
 
@@ -39,7 +38,7 @@ frontend:
 
 Without this step the theme falls back gracefully to JetBrains Mono / Fira Code / system monospace.
 
-Headlines (card headers, titles, display sizes) always prefer **Orbitron**. To also style plain
-`h1` elements (e.g. in Markdown cards) and `.content .title` divs, install
-[card-mod](https://github.com/thomasloven/lovelace-card-mod) — the theme's `card-mod-root-yaml`
-block handles the rest.
+Headlines (card headers, titles, display sizes) always prefer **Orbitron**. To also style plain `h1` elements
+(e.g. in Markdown cards) and `.content .title` divs, install
+[card-mod](https://github.com/thomasloven/lovelace-card-mod) — the theme's `card-mod-root-yaml` block handles
+the rest.
